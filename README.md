@@ -49,7 +49,8 @@ optimum; a bit that becomes zero in all wolves and leaders cannot turn on again
 under this update rule.
 
 The original ObjectiveFunction.hpp was not supplied. The default objective and
-settings (2 parameters, 30 wolves, 100 iterations) are examples. gwo.cpp retains
-the original continuous implementation.
+settings (2 parameters, 30 wolves, 100 iterations) are examples. The original
+C++ files are available in Git history; this repository now contains the Python
+implementation.
 
 Run checks with `python -m unittest -v`.
